@@ -603,6 +603,7 @@ progress {
   height: auto;
 }
 
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -11201,4 +11202,47 @@ header.masthead h1, header.masthead .h1 {
 
 .submit-btn:hover {
   background-color: #e94e2a;
+}
+.page-title {
+  background: rgba(0, 0, 0, 0.5); /* Fondo oscuro con transparencia */
+  color: white;
+  padding: 50px 0;
+  text-align: center; /* Centra el texto */
+}
+.service-box {
+  text-align: center; /* Centra el texto dentro de la caja de servicios */
+  margin-top: 30px;
+}
+.services-list {
+  display: flex; /* Utiliza flexbox para la lista de servicios */
+  justify-content: center; /* Centra los elementos en la lista */
+  padding: 0;
+  list-style-type: none; /* Elimina los puntos de la lista */
+}
+.services-list a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px; /* Espaciado en los enlaces */
+  margin: 0 10px; /* Espaciado entre enlaces */
+  text-decoration: none;
+  color: #333; /* Color del texto */
+  transition: background 0.3s;
+  border: 1px solid #ccc; /* Añadir un borde */
+  border-radius: 5px; /* Bordes redondeados */
+}
+.services-list a:hover {
+  background: rgba(0, 0, 0, 0.1); /* Fondo en hover */
+}
+
+.peccion {
+  background-color: #f0f8ff; /* Color de fondo claro (ejemplo: azul claro) */
+  color: #333; /* Color del texto (puedes cambiarlo a tu elección) */
+  padding: 20px; /* Espaciado interno */
+  border-radius: 5px; /* Bordes redondeados */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave para dar profundidad */
+}
+.centrado {
+  list-style-type: none; /* Removes the bullet points */
+ 
 }
