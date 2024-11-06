@@ -11246,3 +11246,104 @@ header.masthead h1, header.masthead .h1 {
   list-style-type: none; /* Removes the bullet points */
  
 }
+/* === Custom Styles for About Us Section (Houservices) === */
+/* Código CSS específico para esta página */
+/* === End of Custom Styles === */
+/* Custom styles for warm tones */
+body {
+  background-color: #fdf5e6;
+  color: #5a3d2b;
+  font-family: 'Merriweather', serif;
+}
+.navbar {
+  background-color: #a0522d; /* marrón madera */
+}
+.navbar-brand, .nav-link {
+  color: #f5deb3 !important; /* tonos arena */
+}
+.navbar-brand:hover, .nav-link:hover {
+  color: #ffa500 !important; /* naranja claro */
+}
+.masthead {
+  background-color: #d2691e; /* marrón anaranjado */
+  color: white;
+  padding: 3rem 0;
+  text-align: center;
+  font-family: 'Merriweather Sans', sans-serif; /* Diferente fuente */
+}
+.about-section {
+  padding: 4rem 0;
+  background-color: #fffaf0; /* fondo claro */
+}
+.about-section h1 {
+  color: #cd853f; /* tonos madera */
+  font-family: 'Merriweather Sans', sans-serif; /* Diferente fuente */
+}
+.about-text {
+  max-width: 800px;
+  margin: auto;
+  text-align: left;
+}
+.founder-images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+.founder-images img {
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  height: auto;
+}
+footer {
+  background-color: #a0522d;
+  color: #f5deb3;
+}
+footer .text-muted {
+  color: #f5deb3 !important;
+}
+/* === Styles for Masthead with Background Image === */
+.masthead {
+  background-image: url('../recursos/imagen-grande.jpg'); /* Ajusta el path a la imagen */
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.masthead h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.masthead p {
+  font-size: 1.25rem;
+}
+
+.about-text {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 2rem;
+  border-radius: 8px;
+  color: #5a3d2b;
+}
+
+.about-text h2 {
+  color: #cd853f; /* tonos madera */
+}
+
+.founder-images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.founder-images img {
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  height: auto;
+}
