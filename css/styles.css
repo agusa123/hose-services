@@ -11449,4 +11449,131 @@ footer .text-muted {
   padding: 13px 30px;
   border-radius: 32px;
 }
+.carousel-image {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* Relación 9:16 (9/16 = 56.25%) */
+  height: 0;
+  overflow: hidden;
+}
 
+.carousel-image img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Mantiene la imagen en proporción y recorta si es necesario */
+  transform: translate(-50%, -50%);
+}
+
+.carousel-inner {
+  transition: transform 0.5s ease;
+}
+
+.carousel-item {
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  transform: translateX(0);
+}
+
+.carousel-item-next,
+.carousel-item-prev {
+  transform: translateX(100%);
+}
+
+    /* Responsividad: Asegurar que el carrusel se vea bien en pantallas pequeñas */
+    @media (max-width: 767px) {
+      .carousel-image {
+        padding-bottom: 56.25%; /* Mantiene la proporción 16:9 en pantallas pequeñas */
+      }
+    }
+
+    /* Para dispositivos con pantallas medianas (tabletas) */
+    @media (max-width: 991px) {
+      .carousel-image {
+        padding-bottom: 56.25%; /* Mantiene la proporción 16:9 también en tabletas */
+      }
+    }
+
+    /* Para pantallas más grandes, sin cambio, sigue el 16:9 */
+    @media (min-width: 992px) {
+      .carousel-image {
+        padding-bottom: 56.25%; /* Mantiene la proporción 16:9 */
+      }
+    }
+/* Custom class to change color and font */
+.highlight-text {
+  font-family: 'Poppins', 'Merriweather Sans';  /* Change the font */
+  color: #4f5050;                     /* Text color */
+  font-weight: 600;                    /* Make the text bold */
+  font-size: 1.2rem;                   /* Adjust the font size */
+  text-transform: uppercase;           /* Uppercase text */
+  transition: color 0.3s ease;         /* Smooth color transition */
+}
+
+.highlight-text:hover {
+  color: #4f5050;                     /* Change color on hover */
+}
+/* Styling for the warning box */
+.warning-box {
+  background-color: #fff3cd;  /* Light yellow background color */
+  color: #856404;             /* Dark yellow text color */
+  border: 1px solid #ffeeba;  /* Light yellow border */
+  padding: 15px 20px;         /* Add padding for spacing */
+  border-radius: 5px;         /* Rounded corners */
+  font-family: 'Roboto', sans-serif; /* Body font */
+  font-size: 1rem;            /* Standard text size */
+  margin-bottom: 20px;        /* Bottom margin to separate from other content */
+  display: flex;              /* Flexbox layout for content alignment */
+  align-items: center;        /* Center-align content vertically */
+}
+
+.warning-box p {
+  margin: 0;                  /* Remove default margin of paragraph */
+  font-weight: bold;          /* Make text bold */
+  line-height: 1.5;           /* Increase line-height for readability */
+}
+
+.warning-box i {
+  margin-right: 10px;         /* Space between icon and text */
+  font-size: 1.5rem;          /* Icon size */
+  color: #856404;             /* Matching icon color */
+}
+
+.info-box {
+  background-color: rgba(255, 255, 255, 0.9); /* White background with slight transparency */
+  border: 1px solid #e0e0e0; /* Light grey border */
+  padding: 15px 20px; /* Padding for spacing around the list */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow to give depth */
+  margin-bottom: 20px; /* Bottom margin to separate from other content */
+}
+
+.info-box ul {
+  margin: 0; /* Remove default margin */
+  padding-left: 20px; /* Padding for the list items */
+}
+
+.info-box li {
+  font-family: 'Roboto', sans-serif; /* Use a clean, sans-serif font */
+  font-size: 1rem; /* Standard font size */
+  margin-bottom: 10px; /* Space between list items */
+  display: flex; /* Flexbox layout for icon and text */
+  align-items: center; /* Center-align the icon and text vertically */
+}
+
+.info-box li i {
+  margin-right: 10px; /* Space between the icon and the text */
+  font-size: 1.2rem; /* Icon size */
+  color: #28a745; /* Green icon color */
+}
+
+.info-box li span {
+  color: #333; /* Dark text color */
+  font-weight: 500; /* Medium weight for text */
+}

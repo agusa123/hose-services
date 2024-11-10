@@ -78,171 +78,190 @@
     </div>
   </div><!-- End Page Title -->
   <!-- Service Details Section -->
+
   <section id="service-details" class="peccion">
-
-
+    <div class="container my-5">
+      <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+        <!-- Indicadores -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        </div>
+  
+        <!-- Elementos del Carrusel -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="carousel-image">
+              <img src="images/carpinteria-1.jpg" class="d-block w-100" alt="Imagen 1">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-image">
+              <img src="images/plomeria-1.jpg" class="d-block w-100" alt="Imagen 2">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-image">
+              <img src="images/electricidad-2.jpg" class="d-block w-100" alt="Imagen 3">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-image">
+              <img src="images/electricidad-1.png" class="d-block w-100" alt="Imagen 4">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-image">
+              <img src="images/gas-2.jpg" class="d-block w-100" alt="Imagen 5">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-image">
+              <img src="images/gas-1.jpg" class="d-block w-100" alt="Imagen 6">
+            </div>
+          </div>
+        </div>
+  
+        <!-- Controles de navegación -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+  <section id="service-details" class="peccion highlight-text ">
+    <!-- Contenedor principal -->
     <div class="container position-relative">
       <div class="row justify-content-center">
+        <!-- Lista de servicios -->
         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
           <div class="service-box">
             <h4>Lista de Servicios</h4>
             <div class="services-list d-flex flex-wrap justify-content-center">
-              <a href="#electricidad" class="m-2">
-                <i class="bi bi-arrow-right-circle"> </i> <span> Electricidad</span>
+              <a href="#electricidad" class="m-2 highlight-text">
+                <i class="bi bi-arrow-right-circle"></i> <span> Electricidad</span>
               </a>
               <a href="#gas" class="m-2">
-                <i class="bi bi-arrow-right-circle"> </i> <span> Gas</span>
+                <i class="bi bi-arrow-right-circle"></i> <span> Gas</span>
               </a>
               <a href="#plomeria" class="m-2">
-                <i class="bi bi-arrow-right-circle"> </i> <span> Plomeria</span>
+                <i class="bi bi-arrow-right-circle"></i> <span> Plomería</span>
               </a>
               <a href="#carpinteria" class="m-2">
-                <i class="bi bi-arrow-right-circle"> </i> <span> Carpinteria</span>
+                <i class="bi bi-arrow-right-circle"></i> <span> Carpintería</span>
               </a>
             </div>
-          </div><!-- End Services List -->
-        </div>
+          </div>
+        </div><!-- End Lista de Servicios -->
       </div>
     </div>
+  
+    <!-- Detalles de los servicios -->
     <div class="container">
       <div class="row justify-content-center">
+  
+        <!-- Servicio de Electricidad -->
         <div id="electricidad" class="col-lg-8 ps-lg-5" data-aos="fade-up" data-aos-delay="200">
           <img src="assets/img/services.jpg" alt="" class="img-fluid services-img">
           <h3 class="text-center">Servicios eléctricos residenciales</h3>
-          <p>
-            La electricidad es esencial para mantener su casa en funcionamiento. Desde electrodomésticos hasta sistemas
-            de seguridad, varios componentes de su casa dependen de una electricidad estable para asegurar su comodidad
-            y protección. En House-Service, entendemos lo vital que es la electricidad para su hogar. Nuestro equipo se
-            esfuerza por ofrecer servicios eléctricos residenciales convenientes, fiables y de calidad para mantener su
-            casa funcional y cómoda.
-          </p>
-          <ul class="centrado">
-            <li><i class="bi-check-circle"></i> <span>Cuadros eléctricos: Reduzca el riesgo, aumente el valor de su
-                vivienda y garantice su seguridad con actualizaciones o sustituciones de los cuadros eléctricos.</span>
-            </li>
-            <li><i class="bi-check-circle"></i> <span>Protectores contra sobretensiones: Podemos ayudarle a proteger
-                los equipos sensibles de su hogar y ahorrar tiempo y dinero con nuestros servicios de instalación de
-                protección contra sobretensiones.</span></li>
-            <li><i class="bi-check-circle"></i> <span>Generadores de reserva: Elige una de nuestras soluciones de
-                generadores para asegurarte de que estás protegido y preparado en caso de emergencia.
-              </span></li>
-            <li><i class="bi-check-circle"></i> <span>Iluminación: Nuestro equipo puede diseñar, planificar e
-                instalar un sistema de iluminación exterior de 120 voltios que embellece y protege su hogar.</span></li>
-            <li><i class="bi-check-circle"></i> <span>Ventiladores de techo: Podemos ayudarle con la instalación de
-                ventiladores de techo, lo que le permitirá disfrutar de comodidad en toda su casa.</span></li>
-          </ul>
-          <h4>
-            Reparaciones</h4>
-          <p>Estamos disponibles por teléfono, o en línea 24/7 para ayudar a programar las reparaciones eléctricas y
-            garantizar su seguridad. Nuestro equipo tiene la formación, experiencia y conocimientos para completar las
-            reparaciones eléctricas con eficiencia y rapidez. Vamos a realizar reparaciones para restaurar la
-            funcionalidad de cualquier sistema eléctrico en su casa para que pueda seguir disfrutando de la protección y
-            comodidad. Algunos de nuestros servicios de solución de problemas residenciales y reparaciones incluyen:</p>
-          <ul class="centrado">
-            <li><i class="bi-check-circle"></i> <span>Reparación de disyuntores: Nuestro equipo le ayudará si sus
-                disyuntores siguen saltando o no funcionan como deberían.</span></li>
-            <li><i class="bi-check-circle"></i> <span>Reparación de luces: Investigaremos luces parpadeantes,
-                estroboscópicas o tenues y arreglaremos cualquier componente defectuoso.</span></li>
-            <li><i class="bi-check-circle"></i> <span>Reparación de pérdidas de suministro eléctrico: Nuestros
-                técnicos pueden estabilizar la distribución de energía en toda su casa si experimenta pérdidas
-                recurrentes de energía.
-              </span></li>
-            <li><i class="bi-arrow-right-circle"></i> <span>Reparación de componentes eléctricos ruidosos:
-                Arreglaremos sus sistemas eléctricos para garantizar un funcionamiento silencioso si oye zumbidos o
-                crujidos cerca de interruptores de luz, receptáculos o disyuntores.</span></li>
-            <li><i class="bi-check-circle"></i> <span>Reparación de detectores de humo: Le ayudaremos si su detector
-                de humos emite chirridos injustificados.</span></li>
-          </ul>
-        </div>
-
-        <div class="text-center">
-          <a class="btn btn-primary btn-xl" href="#services">Ver porftolio</a>
-        </div>
-
+          <div class="info-box">
+            <ul class="centrado">
+              <li><i class="bi-check-circle"></i> <span>Actualización o sustitución de cuadros eléctricos</span></li>
+              <li><i class="bi-check-circle"></i> <span>Instalación de protectores contra sobretensiones</span></li>
+              <li><i class="bi-check-circle"></i> <span>Generadores de reserva</span></li>
+              <li><i class="bi-check-circle"></i> <span>Instalación de sistemas de iluminación</span></li>
+              <li><i class="bi-check-circle"></i> <span>Instalación de ventiladores de techo</span></li>
+            </ul>
+          </div>
+          
+          <h4 class="text-center">Reparaciones</h4>
+          <div class="info-box">
+            <ul class="centrado">
+              <li><i class="bi-check-circle"></i> <span>Reparación de disyuntores</span></li>
+              <li><i class="bi-check-circle"></i> <span>Reparación de luces</span></li>
+              <li><i class="bi-check-circle"></i> <span>Reparación de pérdidas de suministro eléctrico</span></li>
+              <li><i class="bi-arrow-right-circle"></i> <span>Reparación de componentes eléctricos ruidosos</span></li>
+              <li><i class="bi-check-circle"></i> <span>Reparación de detectores de humo</span></li>
+            </ul>
+          </div>
+          
+        </div><!-- End Electricidad -->
+  
+        <!-- Servicio de Gas -->
         <div id="gas" class="col-lg-8 ps-lg-5" data-aos="fade-up" data-aos-delay="200">
           <img src="assets/img/services.jpg" alt="" class="img-fluid services-img">
-          <h3 class="centrado">Servicio Tecnico de Gas</h3>
-          <p>
-            Somos expertos en trabajos de Gadomésticos, reparación de calentadores, hornos, estufas y chimenea
-          </p>
-          <ul class="centrado">
-            <li><i class="bi-check-circle"></i> <span>Instalación y mantenimientos en calentadores, honor y
-                estufas.</span></li>
+          <h3 class="text-center">Servicio Técnico de Gas</h3>
+          <div class="info-box">
+            <ul class="centrado">
+            <li><i class="bi-check-circle"></i> <span>Instalación y mantenimiento en calentadores, hornos y estufas.</span></li>
             <li><i class="bi-check-circle"></i> <span>Instalación de chimeneas.</span></li>
             <li><i class="bi-check-circle"></i> <span>Puntos adicionales de gas.</span></li>
-            <li><i class="bi-check-circle"></i> <span> Instalaciones internas de tuberías.</span></li>
-            <li><i class="bi-check-circle"></i> <span> Reparaciones de fugas internas de gas.</span></li>
-            <li><i class="bi-check-circle"></i> <span> Servicio técnico en general.</span></li>
+            <li><i class="bi-check-circle"></i> <span>Instalaciones internas de tuberías.</span></li>
+            <li><i class="bi-check-circle"></i> <span>Reparaciones de fugas internas de gas.</span></li>
+            <li><i class="bi-check-circle"></i> <span>Servicio técnico en general.</span></li>
           </ul>
-          <p>
-            Reparación y mantenimiento de todo tipo de electrodoméstico y gasodoméstico en general, contamos con un
-            personal de trabajo altamente especializado y capacitado intervenir su equipo y poder brindarle un servicio
-            tecnico efectivo y profesional, ademas ofrecemos instalación de todo tipo de electrodoméstico y
-            gasodomestico, reparación, mantenimiento preventivo y correctivo.
-          </p>
-          <p>
-            Recuerde realizar mantenimiento técnico preventivo a su gasodoméstico con personal capacitado una vez cada
-            12 meses. El mantenimiento preventivo le ayudará a extender la vida útil de su gasodoméstico.
-          </p>
-        </div>
-        <div class="text-center">
-          <a class="btn btn-primary btn-xl" href="#services">Ver porftolio</a>
-        </div>
-
+          </div>
+          
+          <div class="warning-box">
+            <p>
+              Recuerde realizar mantenimiento técnico preventivo a su gasodoméstico con personal capacitado una vez cada 12 meses. El mantenimiento preventivo le ayudará a extender la vida útil de su gasodoméstico.
+            </p>
+          </div>
+        </div><!-- End Gas -->
+  
+        <!-- Servicio de Plomería -->
         <div id="plomeria" class="col-lg-8 ps-lg-5" data-aos="fade-up" data-aos-delay="200">
           <img src="assets/img/services.jpg" alt="" class="img-fluid services-img">
           <h3 class="text-center">Plomería</h3>
-          <ul class="centrado">
+          <div class="info-box">
+            <ul class="centrado">
             <li><i class="bi-check-circle"></i> <span>Reparaciones y cambio de cañerías</span></li>
-            <li><i class="bi-check-circle"></i> <span>Reparación de filtraciones, pruebas hidráulicas.</span></li>
+            <li><i class="bi-check-circle"></i> <span>Reparación de filtraciones, pruebas hidráulicas</span></li>
             <li><i class="bi-check-circle"></i> <span>Reparaciones de cloacas y cañerías de cloacas</span></li>
-            <li><i class="bi-check-circle"></i> <span>Reparaciones de desagües de cocinas, lavaderos y baños.</span>
-            </li>
-            <li><i class="bi-check-circle"></i> <span>Reparación y reposición de llaves de paso.</span></li>
-            <li><i class="bi-check-circle"></i> <span>Reparación y reposición de grifería y accesorios.</span></li>
-            <li><i class="bi-check-circle"></i> <span>Soldaduras en cañerías averiadas.</span></li>
-            <li><i class="bi-check-circle"></i> <span>Urgencias en inundaciones.</span></li>
-            <li><i class="bi-check-circle"></i> <span>Plomería en general.</span></li>
+            <li><i class="bi-check-circle"></i> <span>Reparaciones de desagües de cocinas, lavaderos y baños</span></li>
+            <li><i class="bi-check-circle"></i> <span>Reparación y reposición de llaves de paso</span></li>
+            <li><i class="bi-check-circle"></i> <span>Reparación y reposición de grifería y accesorios</span></li>
+            <li><i class="bi-check-circle"></i> <span>Soldaduras en cañerías averiadas</span></li>
+            <li><i class="bi-check-circle"></i> <span>Urgencias en inundaciones</span></li>
+            <li><i class="bi-check-circle"></i> <span>Plomería en general</span></li>
           </ul>
-        </div>
-
-        <div class="text-center">
-          <a class="btn btn-primary btn-xl" href="#services">Ver porftolio</a>
-        </div>
-
+          </div>
+          
+        </div><!-- End Plomería -->
+  
+        <!-- Servicio de Carpintería -->
         <div id="carpinteria" class="col-lg-8 ps-lg-5" data-aos="fade-up" data-aos-delay="200">
           <img src="assets/img/services.jpg" alt="" class="img-fluid services-img">
           <h3 class="text-center">Carpintería</h3>
-          <p>
-            Nos especializamos en la fabricación de muebles a medida y soluciones de madera personalizadas. Creamos
-            desde muebles contemporáneos hasta piezas clásicas.
-          </p>
-          <p>
-            A continuacion, presentamos detalles de nuestros servicios, aunque no se limitan a esto:
-          </p>
-          <ul class="centrado">
-            <li><i class="bi-check-circle"></i> <span>Aberturas: diseñamos e instalamos aberturas personalizadas,
-                incluyendo puertas y ventanas</span></li>
+          <div class="info-box">
+            <ul class="centrado">
+            <li><i class="bi-check-circle"></i> <span>Aberturas: diseñamos e instalamos aberturas personalizadas, incluyendo puertas y ventanas</span></li>
             <li><i class="bi-check-circle"></i> <span>Baños: Desde muebles de lavabo hasta estanterías</span></li>
             <li><i class="bi-check-circle"></i> <span>Dormitorios: armarios, cabeceras y camas</span></li>
             <li><i class="bi-check-circle"></i> <span>Cocinas: islas y estanterías</span></li>
-            <li><i class="bi-check-circle"></i> <span>Comercios: mostradores de recepcion y estanterias de
-                recepcion</span></li>
+            <li><i class="bi-check-circle"></i> <span>Comercios: mostradores de recepción y estanterías de recepción</span></li>
           </ul>
-        </div>
-
+          </div>
+          
+        </div><!-- End Carpintería -->
+  
+        <!-- Botón de Ver Portfolio -->
         <div class="text-center">
-          <a class="btn btn-primary btn-xl" href="#services">Ver porftolio</a>
+          <a class="btn btn-primary btn-xl" href="#services">Contactanos</a>
         </div>
-
+  
       </div>
-
-    </div>
-    </div>
-    </div>
-
-
-  </section><!-- /Service Details Section -->
+    </div><!-- End Container -->
+  </section><!-- End Service Details Section -->
   <!--Footer-->
   <footer class="bg-light py-5">
     <div class="container px-4 px-lg-5">
@@ -262,6 +281,9 @@
   <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
   <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
   <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+  <!-- Enlace a Bootstrap JS y dependencias -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  
 </body>
 
 </html>
